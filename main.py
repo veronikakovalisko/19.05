@@ -23,7 +23,7 @@ if __name__ == '__main__':
 Write a Python program to access a function inside a function 
 (Tips: use function, which returns another function)"""
 def func(words):
-    return [i+' + ' for i in words]
+    return [i+' eror ' for i in words if i == 'word']
 def access_function(a):
     if len(a) > 0:
         return func(a)
